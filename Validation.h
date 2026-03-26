@@ -63,29 +63,23 @@ public:
 			return true;
 		}
 	}
+   static void checkName(string name) {
+	  while (!Validation::isValidName(name)) {
+		  cout << "\n[Error] invalid name!\n";
+		  cout << "\n[~] Re-enter: ";
+		  cin >> name;
+	   }
+
+    }
 
 	static void checkPWD(string password){
 		string pass = password;
 		while (!Validation::isValidPWD(pass) || !Validation::passwordState(pass)) {
-			//if (!Validation::isValidPWD(pass)) {
 				cout << "\n [Error] Invalid password!\n";
 				cout << " [~] Re-enter: ";
 				cin >> password;
 				cin.ignore();
 				cout << endl;
-
-			/*}
-			else {
-				if (!Validation::passwordState(pass)) {
-					cout << "\n [Error] Invalid password!\n";
-					cout << " [~] Re-enter: ";
-					cin >> password;
-					cin.ignore();
-					cout << endl;
-
-				}
-			}*/
-			
 		}
 	}
 

@@ -29,6 +29,6 @@ A comprehensive Financial Management System developed in C++ using Object-Orient
 This project was a collaborative effort by:
 
 * **[Rewan El Hassan](https://github.com/rewanelhassan)** - Software Engineering Student @ Tanta University.
-* **[Zeinab Ayman](https://github.com/Zeinab304)** - Software Engineering Student @ Tanta University.
+* **[Zeinab Ayman](https://github.com/Zeinab-Ayman)** - Software Engineering Student @ Tanta University.
 
 
